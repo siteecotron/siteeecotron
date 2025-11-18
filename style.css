@@ -1,0 +1,455 @@
+/* Estilo geral do site*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: #f6fff0;
+  height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+/* Estilo do cabeçalho */
+header{
+    padding: 20px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li a{
+    color: #5c5c5c;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline-block;
+    transition: 0.2s;
+}
+nav ul li a:hover{
+    color: #218e16;
+    transform: scale(1.05);
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0 30px;
+}
+
+
+/*Estilo do topo do site*/
+section.topo-do-site{
+    padding: 40px 1%;
+    align-items: justify;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center; 
+    gap: 90px; 
+}
+
+.topo-do-site .txt-topo-site h1{
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.topo-do-site .txt-topo-site h1 b{
+    color:  #008000;
+}
+
+.topo-do-site .txt-topo-site p{
+    margin: 40px 0;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuano 2s ease-in-out infinite alternate;
+}
+
+/* Animação da imagem */
+@keyframes flutuano{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+
+/* ESTILO DO CORPO DO SITE */
+section.corpo-texto{
+    padding: 40px 1%;
+    align-items: justify;
+}
+
+.corpo-texto .txt-corpo-site h2{
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.corpo-texto .txt-corpo-site h2 b{
+    color: #008000;
+}
+
+.corpo-texto .txt-corpo-site p{
+    margin: 40px 0;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.corpo-texto .txt-corpo-site h3{
+    color: #00A550;
+}
+
+.corpo-texto .txt-corpo-site h3 p{
+    margin: 40px 0;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.corpo-texto .txt-corpo-site h3 dt{
+    margin: 40px 0;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+dl.tópicos-h3{
+    margin: 40px 0;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+dl.tópicos-h3 b{
+    color: #00A550;
+}
+
+.corpo-texto .txt-corpo-site h3 p b{
+    color:#00A550;
+}
+
+.corpo-texto .txt-corpo-site H4{
+    font-size: 50px;
+    line-height: 50px;
+}
+
+
+/* ESTILO DA PARTE SOBRE DESCARTE */
+
+.descarte .texto-descarte h4{
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 10px;
+    padding: 40px 0;
+}
+
+.descarte .texto-descarte p{
+    margin: 15px 0;
+    align-items: justify;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.texto-corpo-descarte .txt-corpo-descarte p{
+    margin: 40px 0;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.texto-corpo-descarte .txt-corpo-descarte h1{
+    color:#00A550;
+}
+
+.texto-corpo-descarte .txt-corpo-descarte h1 dt{
+    margin: 40px 0;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+dl.tópicos-descarte{
+    margin: 40px 0;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+dl.tópicos-descarte b{
+    color: #00A550;
+}
+
+.texto-corpo-descarte .txt-corpo-descarte h1 dt{
+    margin: 40px 0;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+dl.topicos-ABNT{
+    margin: 40px 0;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+dl.topicos-ABNT b{
+    color: #00A550;
+}
+
+.texto-corpo-descarte .txt-corpo-descarte h1 dt{
+    margin: 40px 0;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+dl.topicos-descartecorrreto{
+    margin: 40px 0;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+dl.topicos-descartecorrreto b{
+    color:#00A550;
+}
+
+dl.pontosdecoletanobr{
+    margin: 40px 0;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+dl.pontosdecoletanobr b{
+    color: #00A550;
+}
+
+/*PRODUÇÃO DE ELETRONICO SUSTENTAVEL*/
+section.produção-eletrônicos-sustentáveis{
+    padding: 20px 0;
+    align-items: justify;
+}
+
+section.produção-eletrônicos-sustentáveis .flex{
+    align-items: center;
+    justify-content: center; 
+    gap: 90px; 
+}
+
+.produção-eletrônicos-sustentáveis .img-eletronicossustentaveis img{
+    position: relative;
+}
+
+.produção-eletrônicos-sustentáveis .títulosustentavel h6{
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 10px;
+    padding: 20px 0;
+}
+
+.produção-eletrônicos-sustentáveis .títulosustentavel h6 b{
+    color: #008000;
+}
+
+.produção-eletrônicos-sustentáveis .títulosustentavel h6 p{
+    margin: 40px 0;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.corpo-texto-eletronicossus .txt-corpo-elesus h7 dt{
+    margin: 40px 0;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+dl.textoxuxu{
+    margin: 40px 0;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+dl.textoxuxu b{
+    color: #00A550;
+}
+
+.corpo-texto-eletronicossus .txt-corpo-elesus h8 dt{
+    margin: 30px 0;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+dl.mais-topicos{
+    margin: 40px 0;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+dl.mais-topicos b{
+    color: #00A550;
+}
+
+/*PARTE SOBRE MINAS GERAIS*/
+
+.poluição-mg .txt-poluição h10{
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 10px;
+    padding: 20px 0;
+}
+
+.poluição-mg .txt-poluição h10 b{
+    color:#008000;
+}
+
+.poluição-mg .img-poluiçãominas{
+   margin: 0;
+   width: 200px;
+}
+
+/*EQUIPE ECOTRON*/
+section.equipe{
+    padding: 40px 4%;
+}
+
+section.equipe .flex{
+    text-align: justify;
+    gap: 60px;
+}
+
+.equipe .txt-sobre h11{
+    font-size: 45px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.equipe .txt-sobre h11 b{
+    color: #008000;
+}
+
+.equipe .txt-sobre h6 p{
+    margin: 40px 0;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+/*RODAPE*/
+
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #00A550;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .topo{
+    padding: 20px 0;
+}
+
+.borda{
+    border-top: 2px solid #008000;
+}
+
+footer .topo .botoes button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #218e16;
+    font-size: 30px;
+}
+
+footer .topo p i{
+    color: #008000;
+    font-size: 30px;
+}
+
+footer .topo p a{
+    color: #000;
+}
+
+
+
+/* Media Queries para Responsividade */
+@media screen and (max-width: 1349px) {
+    .flex{
+        flex-direction: column;
+    }
+
+    header > .interface {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul li {
+        display: block;
+        padding: 10px 8%;
+    }
+
+    /*TEXTOOO topo do site*/
+    section.topo-do-site .flex{
+        gap: 20px; 
+    }
+
+    .topo-do-site .txt-topo-site h1{
+        font-size: 50px;
+    }
+
+    section.topo-do-site{
+        padding: 12px 8%;
+    }
+
+    .topo-do-site .img-topo-site img{
+        width: 100%;
+    }
+
+    /*TEXTO ele sustentavel*/
+    section.corpo-texto{
+        padding: 12px 8%;
+    }
+
+    .corpo-texto .txt-corpo-site h2{
+        font-size: 50px;
+    }
+
+    /*A EQUIPE*/
+    section.equipe{
+        padding: 12px 8%;
+    }
+
+    /*footer*/
+    footer .flex{
+        flex-direction: column;
+    }
+}
