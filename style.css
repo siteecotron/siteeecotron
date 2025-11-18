@@ -7,7 +7,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-body{
+*body{
   background-color: #f6fff0;
   height: 100vh;
 }
@@ -452,4 +452,5 @@ footer .topo p a{
     footer .flex{
         flex-direction: column;
     }
+
 }
